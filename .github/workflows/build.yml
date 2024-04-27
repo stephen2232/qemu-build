@@ -41,10 +41,10 @@ jobs:
       
       - uses: actions/upload-artifact@v4
         with:
-          name: pve-qemu-kvm-dbgsym_8.1.5-3_amd64.deb
-          path: pve-qemu/pve-qemu-kvm-dbgsym_8.1.5-3_amd64.deb
+          name: pve-qemu-kvm-dbgsym_8.1.5-5_amd64.deb
+          path: pve-qemu/pve-qemu-kvm-dbgsym_8.1.5-5_amd64.deb
           
       - uses: actions/upload-artifact@v4
         with:
-          name: pve-qemu-kvm_8.1.5-3_amd64.deb
-          path: pve-qemu/pve-qemu-kvm_8.1.5-3_amd64.deb
+          name: pve-qemu-kvm_8.1.5-5_amd64.deb
+          path: pve-qemu/pve-qemu-kvm_8.1.5-5_amd64.deb
